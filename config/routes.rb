@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'toppages#index'
-  
+root to: 'tasks#index'  
+
   get 'sessions/new'
   get 'sessions/create'
   get 'sessions/destroy'
